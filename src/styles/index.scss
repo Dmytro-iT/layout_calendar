@@ -5,7 +5,7 @@ body {
 }
 
 .calendar {
-  width: variables.$box-day-size * 7 + 6;
+  width: (variables.$box-day-size * 7) + 6;
   display: flex;
   flex-wrap: wrap;
   gap: 1px;
@@ -25,7 +25,7 @@ body {
     transition-duration: 0.5s;
 
     &:first-child {
-      margin-left: variables.$box-day-size * 6 + 6;
+      margin-left: (variables.$box-day-size * 6) + 6;
     }
 
     &:hover {
